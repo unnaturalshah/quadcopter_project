@@ -20,15 +20,13 @@ The files in the directory are structured in the following manner:
 > **rewards.txt:** This is the output of total rewards collected by the trained agent over a 1000 episodes.
 
 
-__For this project, you will define your own task in task.py. Although we have provided a example task to get you started, you are encouraged to change it. Later in this notebook, you will learn more about how to amend this file.
+For this project, you will define your own task in **task.py**. Although we have provided a example task to get you started, you are encouraged to change it. Later in this notebook, you will learn more about how to amend this file.
 
 You will also design a reinforcement learning agent in agent.py to complete your chosen task.
 
-You are welcome to create any additional files to help you to organize your code. For instance, you may find it useful to define a agent.py file defining any needed neural network architectures.__
+You are welcome to create any additional files to help you to organize your code. For instance, you may find it useful to define a **agent.py** file defining any needed neural network architectures.
 
-Need a software installed to run and execute a Jupyter Notebook
-
-If you do not have Python installed yet, it is highly recommended that you install the Anaconda distribution of Python, which already has the above packages and more included. 
+You will need a software installed to run and execute a Jupyter Notebook. If you do not have Python installed yet, it is highly recommended that you install the Anaconda distribution of Python, which already has the above packages and more included. 
 
 ## **Why does this all matter?**
 
