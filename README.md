@@ -37,5 +37,5 @@ This was the 2nd last project from Udacity's machine learning nanodegree course 
 ## FAQ
 
 **What if Quadcopter_Project.ipny is not loading?**
-> Try downloading the file and running Jupyter Notebook.
+> Try downloading the file and running on Jupyter Notebook.
 
