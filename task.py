@@ -24,18 +24,17 @@ class Task():
         self.action_size = 4
 
         # Goal
-        self.target_pos = target_pos if target_pos is not None else np.array([0., 0., 10.]) 
+        self.target_pos = target_pos if target_pos is not None else np.array([0., 0., 0.]) 
 
     def get_reward(self):
          #reward = 1.-.3*(abs(self.sim.pose[:2] - self.target_pos)).sum()
          
         reward = 0.
-        
+        z_d = abs(self.sim.pose[2] - self.target_pos[2])
         x_d = abs(self.sim.pose[0] - self.target_pos[0])
         y_d = abs(self.sim.pose[1] - self.target_pos[1])
-        z_d = abs(self.sim.pose[2] - self.target_pos[2])
         
-        reward = 1 - .003*(np.sqrt((x_d**2) + (y_d**2) + (z_d**2)))
+        reward = np.clip(1 - .003*(np.sqrt((x_d**2) + (y_d**2) + (z_d**2))),-1,1)
                 
         return reward*100
 
