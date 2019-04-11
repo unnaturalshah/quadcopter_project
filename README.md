@@ -30,7 +30,7 @@ You will need a software installed to run and execute a Jupyter Notebook. If you
 
 ## **Why does this all matter?**
 
-This was the 2nd last project from Udacity's machine learning nanodegree course which sets you to familarize how to develop a model to train an agent to fly and develop a reward function which ensures agent is constantly aiming to optimally maximize its learning. Understanding the impact of various hyperparameters to train and reward an agent becomes uptmost importance when we look for incremental lift from a model.
+This was the 2nd last project from Udacity's machine learning nanodegree course which sets you to familarize how to develop a deep learning model to train an agent to fly and develop a reward function which ensures agent is constantly aiming to optimally maximize the reinforcement function. Understanding the impact of various hyperparameters to train and reward an agent becomes uptmost importance when we look for incremental lift from a model.
 
 
 ## FAQ
